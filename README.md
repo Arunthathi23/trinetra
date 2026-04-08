@@ -26,6 +26,6 @@ TRINETRA follows a modular architecture:
 The modules work together in a pipeline where traffic input is analyzed by AI models, processed by backend services, and presented through the frontend dashboard.
 
 ## Technologies Used
-- **Frontend**: HTML/CSS/JavaScript (extensible to React-based UI workflows)
-- **Backend**: Python (FastAPI-ready service layer)
-- **AI/Computer Vision**: Python-based detection pipeline (YOLO/OpenCV-compatible approach)
+- **Frontend**: React with Tailwind CSS
+- **Backend**: Python with FastAPI
+- **AI/Computer Vision**: YOLO and OpenCV
