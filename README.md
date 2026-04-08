@@ -1,25 +1,43 @@
-# TRINETRA Project
-# 🚦 TRINETRA - AI Traffic Violation Detection System
+# TRINETRA - AI Traffic Violation Detection System
 
-## 📌 Overview
-TRINETRA is an AI-powered system that detects and analyzes traffic violations using computer vision and real-time data processing.
+## Introduction
+TRINETRA is an AI-powered traffic monitoring solution that uses artificial intelligence and computer vision to automatically detect traffic violations and improve overall road safety.
 
-## 🚀 Features
-- Real-time violation detection
-- Helmet & seatbelt detection
-- Red light violation tracking
+## Objectives
+- Automate traffic monitoring
+- Reduce human error
+- Provide real-time violation detection
+- Generate insights for authorities
+
+## Features
+- Real-time traffic monitoring dashboard
+- Helmet detection for two-wheelers
+- Seatbelt detection for drivers
+- Red light violation detection
 - Over-speed detection
-- AI-powered analytics dashboard
+- Wrong side driving detection
+- Triple riding detection
+- Mobile usage detection while driving
+- Lane discipline monitoring
+- Illegal parking detection
+- Number plate detection and validation
+- AI-based analytics and insights
+- Evidence generation with timestamp
+- Live alerts and notifications
 
-## 🧠 Tech Stack
-- Frontend: React + Tailwind
-- Backend: FastAPI
-- AI: YOLO + OpenCV
+## System Architecture
+Video Input → YOLO Detection → Tracking → Rule-based Violation Detection → Backend API → Database → Frontend Dashboard
 
-## 📂 Project Structure
-frontend/ → UI dashboard  
-backend/ → APIs  
-ai/ → detection logic  
+## Technologies Used
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** FastAPI (Python)
+- **AI/ML:** YOLO, OpenCV
+- **Database:** SQLite/PostgreSQL
 
-## 🎯 Goal
-To build a scalable smart traffic monitoring system for safer roads.
+## Project Structure
+- `frontend/` → user interface
+- `backend/` → API services
+- `ai/` → detection logic
+
+## Conclusion
+TRINETRA is a scalable and practical solution for smart city traffic management, enabling safer roads through automated and intelligent violation detection.
